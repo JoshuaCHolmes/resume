@@ -1,0 +1,42 @@
+name: Release Resume
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Install Typst
+        uses: typst-community/setup-typst@v3
+        
+      - name: Install Poppler
+        run: sudo apt-get install -y poppler-utils
+        
+      - name: Build PDF
+        run: typst compile resume.typ resume.pdf
+        
+      - name: Generate Preview PNG
+        run: pdftoppm -png -r 150 -singlefile resume.pdf preview
+        
+      - name: Commit preview if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add preview.png
+          git diff --staged --quiet || git commit -m "Update preview"
+          git push
+      
+      - name: Create Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          gh release create "$DATE" resume.pdf --title "$DATE" --notes "Resume build from $DATE" --latest

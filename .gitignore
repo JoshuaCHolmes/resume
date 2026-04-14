@@ -1,5 +1,5 @@
-# Build output (releases have dated PDFs)
-resume.pdf
+# Build output tracked in repo
+*.pdf.bak
 
 # OS files
 .DS_Store
