@@ -1,16 +1,13 @@
-# Career
+# Resume
 
-Personal career materials.
-
-## Resume
-
-![Resume Preview](resume/preview.png)
+![Resume Preview](preview.png)
 
 **[📄 Download Latest PDF](https://github.com/JoshuaCHolmes/resume/releases/latest/download/resume.pdf)**
 
-### Build locally
+## Build
 
 ```bash
-cd resume
 typst compile resume.typ
 ```
+
+Built with [Typst](https://typst.app/). Preview auto-generated on push.
