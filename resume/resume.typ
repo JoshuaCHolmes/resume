@@ -105,7 +105,7 @@
   "Rust, egui, Nix",
   "https://github.com/JoshuaCHolmes/nixos-easy-install",
   list(
-    [Windows GUI installer enabling NixOS dual-boot via loopback disk images—no partition changes],
+    [Windows GUI installer enabling NixOS dual-boot via loopback disk images — no partition changes],
     [Secure Boot support via signed shim/GRUB; auto-generates hardware-optimized NixOS configs],
   )
 )
