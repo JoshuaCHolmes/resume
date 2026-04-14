@@ -1,0 +1,33 @@
+name: Build Resume
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'resume/resume.typ'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Install Typst
+        uses: typst-community/setup-typst@v3
+        
+      - name: Install Poppler (for PDF to PNG)
+        run: sudo apt-get install -y poppler-utils
+        
+      - name: Build PDF
+        run: typst compile resume/resume.typ resume/resume.pdf
+        
+      - name: Generate Preview PNG
+        run: pdftoppm -png -r 150 -singlefile resume/resume.pdf resume/preview
+        
+      - name: Commit preview if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add resume/preview.png
+          git diff --staged --quiet || git commit -m "Update preview"
+          git push
