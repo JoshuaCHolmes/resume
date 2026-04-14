@@ -39,4 +39,5 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           DATE=$(date +%Y-%m-%d)
+          gh release delete "$DATE" --yes 2>/dev/null || true
           gh release create "$DATE" resume.pdf --title "$DATE" --notes "Resume build from $DATE" --latest
