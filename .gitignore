@@ -1,6 +1,6 @@
-# Build output (regenerate with: typst compile resume.typ)
-resume.pdf
+# Build output (kept local, releases have dated PDFs)
+resume/resume.pdf
 
-# OS artifacts
-*.Zone.Identifier
+# OS files
 .DS_Store
+*:Zone.Identifier
