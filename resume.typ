@@ -163,3 +163,4 @@
   [AI Professional Skills — OpenAI, 2025 #h(1fr) #text(fill: gray, size: 8pt)[ID: 168754974]],
   [Data Querying — Intel, 2025 #h(1fr) #text(fill: gray, size: 8pt)[ID: 163462103]],
 )
+
