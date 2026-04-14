@@ -10,4 +10,4 @@
 typst compile resume.typ
 ```
 
-Built with [Typst](https://typst.app/). Preview auto-generated on push.
+Built with [Typst](https://typst.app/). PDF auto-built on push; preview updated on release.
