@@ -149,7 +149,7 @@
   none,
   "2020 – 2024",
   list(
-    [*Lead Programmer:* Developed autonomous and driver control; aided design/fabrication — *World Championship (2024) competitor*],
+    [*Lead Programmer:* Autonomous and driver control systems; aided mechanical design — *World Championship (2024)*],
   )
 )
 
