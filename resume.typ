@@ -139,7 +139,7 @@
   "2024 – Present",
   list(
     [*Staff Organizer (2025–26):* Coordinate build teams and engineering competition events],
-    [*Team Autopilot (2025–26):* Led development of autonomous FSD vehicle optimized for sidewalks/bike lanes — *1st Place, FLiNT Shark Tank 2026*],
+    [*Autopilot (2025–26):* Led development of self-driving single-passenger vehicle optimized for sidewalks — *1st Place, FLiNT Shark Tank 2026*],
     [*Flockheed Martin (2024–25):* Built medical resupply drone — *1st Place, FLiNT Shark Tank 2025*],
   )
 )
@@ -148,7 +148,10 @@
   "VEX Robotics — Bridgeland High School",
   none,
   "2020 – 2024",
-  [Lead programmer; *competed at VEX Robotics World Championship (2024)*]
+  list(
+    [*Lead Programmer:* Developed autonomous routines and driver control systems; contributed to robot design and construction],
+    [*Competed at VEX Robotics World Championship (2024)*],
+  )
 )
 
 // Skills & Certifications
