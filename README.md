@@ -1,6 +1,6 @@
 # Resume
 
-![Resume Preview](preview.png)
+![Resume Preview](preview.png?t=1776724042)
 
 **[📄 Download Latest PDF](https://github.com/JoshuaCHolmes/resume/releases/latest/download/resume.pdf)**
 
