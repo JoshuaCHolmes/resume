@@ -139,7 +139,7 @@
   "2024 – Present",
   list(
     [*Staff Organizer (2025–26):* Coordinate build teams and engineering competition events],
-    [*Autopilot (2025–26):* Led development of self-driving single-passenger vehicle optimized for sidewalks — *1st Place, FLiNT Shark Tank 2026*],
+    [*Autopilot (2025–26):* Led development of self-driving single-passenger vehicle — *1st Place, Shark Tank 2026*],
     [*Flockheed Martin (2024–25):* Built medical resupply drone — *1st Place, FLiNT Shark Tank 2025*],
   )
 )
@@ -149,8 +149,7 @@
   none,
   "2020 – 2024",
   list(
-    [*Lead Programmer:* Developed autonomous routines and driver control systems; contributed to robot design and construction],
-    [*Competed at VEX Robotics World Championship (2024)*],
+    [*Lead Programmer & Fabrication:* Developed autonomous routines and driver control; contributed to robot design and construction — *competed at World Championship (2024)*],
   )
 )
 
