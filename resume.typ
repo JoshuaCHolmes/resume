@@ -139,8 +139,8 @@
   "2024 – Present",
   list(
     [*Staff Organizer (2025–26):* Coordinate build teams and engineering competition events],
-    [*Autopilot Team (2025–26):* Developing autonomous self-driving single-person transport vehicle],
-    [*Flockheed Martin (2024–25):* Built medical resupply drone — *1st Place, FLiNT Shark Tank*],
+    [*Autopilot Team (2025–26):* Led development of autonomous FSD vehicle optimized for sidewalks/bike lanes — *1st Place, FLiNT Shark Tank 2026*],
+    [*Flockheed Martin (2024–25):* Built medical resupply drone — *1st Place, FLiNT Shark Tank 2025*],
   )
 )
 
