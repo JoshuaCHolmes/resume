@@ -65,11 +65,10 @@
 
 #entry(
   "Texas A&M University",
-  "Bachelor of Science in Computer Science",
+  grid(columns: (1fr, auto), text(style: "italic")[Bachelor of Science in Computer Science], [College Station, TX]),
   "Aug 2024 – May 2028",
   [
-    *Major GPA: 4.0* #h(1fr) College Station, TX \
-    *Coursework:* Data Structures & Algorithms, Discrete Math, Programming Languages, Computer Architecture
+    *Coursework:* Operating Systems, Computer Graphics, Data Structures & Algorithms, Computer Architecture
   ]
 )
 
@@ -151,7 +150,7 @@
   none,
   "2026 – Present",
   list(
-    [*Technology Coordinator:* Develop, test, and deploy custom event application; coordinate technical infrastructure and hardware operations for university-wide student research symposium],
+    [*Technology Coordinator (2026–27):* Develop, test, and deploy custom event application; coordinate technical infrastructure and hardware operations for university-wide student research symposium],
   )
 )
 
@@ -159,8 +158,8 @@
 #section("Skills & Certifications")
 
 *Languages:* Rust, Python, C/C++, C\#, Java, Haskell, GDScript, Nix, JavaScript, SQL \
-*Tools & Platforms:* Git, Linux/NixOS, Windows API, Godot, egui \
-*Concepts:* Neural Networks, Genetic Algorithms, Systems Programming, RLHF, Embedded Systems
+*Tools & Platforms:* Git, Linux/NixOS, Windows API, Godot, egui, Agentic AI & CLI Tooling \
+*Concepts:* Systems Programming, Agentic Workflows, Neural Networks, RLHF, Embedded Systems
 
 *Certifications:*
 #list(
