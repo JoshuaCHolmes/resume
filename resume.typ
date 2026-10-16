@@ -2,8 +2,8 @@
 // Typst source - compile with: typst compile resume.typ
 
 #set document(title: "Joshua Holmes - Resume", author: "Joshua Holmes")
-#set page(margin: (x: 0.5in, y: 0.4in))
-#set text(font: "New Computer Modern", size: 9.5pt)
+#set page(margin: (x: 0.5in, y: 0.35in))
+#set text(font: "New Computer Modern", size: 9.2pt)
 #set par(justify: true)
 
 // Disable default heading numbering
@@ -14,11 +14,11 @@
 
 // Helper functions
 #let section(title) = {
-  v(4pt)
+  v(2.5pt)
   text(weight: "bold", fill: accent, size: 10pt)[#upper(title)]
   v(-3pt)
   line(length: 100%, stroke: 0.5pt + accent)
-  v(1pt)
+  v(0.5pt)
 }
 
 #let entry(title, location, date, details) = {
@@ -50,9 +50,11 @@
 #align(center)[
   #text(size: 18pt, weight: "bold")[Joshua Holmes]
   #v(-6pt)
-  #text(size: 9.5pt)[
+  #text(size: 9pt)[
     #link("mailto:joshuaholmestx@gmail.com")[joshuaholmestx\@gmail.com] |
     (832) 928-7671 |
+    #link("https://people.tamu.edu/~joshuaholmestx/")[people.tamu.edu/\~joshuaholmestx] \
+    #v(-2pt)
     #link("https://linkedin.com/in/joshua-c-holmes")[linkedin.com/in/joshua-c-holmes] |
     #link("https://github.com/JoshuaCHolmes")[github.com/JoshuaCHolmes]
   ]
@@ -94,7 +96,7 @@
   "Rust, Win32 API",
   "https://github.com/JoshuaCHolmes/live-earth-wallpaper",
   list(
-    [Native Windows app displaying real-time geostationary satellite imagery as desktop wallpaper],
+    [Native Windows app displaying real-time geostationary satellite imagery as desktop wallpaper; optimized in Rust to \~2 MB passive memory (down from 60+ MB in prior Wallpaper Engine prototype)],
     [Renders 25,800-star field from HYG catalog; implements orbital mechanics (JPL elements, Meeus lunar theory) for accurate Sun/Moon/planet positioning from satellite viewpoint],
     [Multi-monitor support, high-DPI aware, automatic failover with offline caching],
   )
@@ -145,11 +147,11 @@
 )
 
 #entry(
-  "VEX Robotics — Bridgeland High School",
+  "Student Research Week — Texas A&M University",
   none,
-  "2020 – 2024",
+  "2026 – Present",
   list(
-    [*Lead Programmer:* Autonomous and driver control systems; aided mechanical design — *World Championship (2024)*],
+    [*Technology Coordinator:* Develop, test, and deploy custom event application; coordinate technical infrastructure and hardware operations for university-wide student research symposium],
   )
 )
 
