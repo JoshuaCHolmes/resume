@@ -68,7 +68,7 @@
   grid(columns: (1fr, auto), text(style: "italic")[Bachelor of Science in Computer Science], [College Station, TX]),
   "Aug 2024 – May 2028",
   [
-    *Coursework:* Operating Systems, Computer Graphics, Data Structures & Algorithms, Computer Architecture
+    *Relevant Coursework:* Operating Systems, Computer Graphics, Data Structures & Algorithms, Computer Architecture
   ]
 )
 
